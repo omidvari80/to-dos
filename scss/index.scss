@@ -78,3 +78,19 @@ li > button {
 	color: #025f70;
 	font-weight: 800;
 }
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding:10px ;
+	border: none;
+}
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
