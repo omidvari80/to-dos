@@ -34,3 +34,9 @@ function createListElement(){
     }
     
     }
+
+    function addListAfterClick(){
+        if (inputLength() > 0) { 
+            createListElement();
+        }
+    }
