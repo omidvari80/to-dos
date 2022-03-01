@@ -40,3 +40,14 @@ function createListElement(){
             createListElement();
         }
     }
+
+    function addListAfterKeypress(event) {
+        if (inputLength() > 0 && event.which ===13) { 
+            createListElement();
+        } 
+    }
+    
+    enterButton.addEventListener("click",addListAfterClick);
+    
+    input.addEventListener("keypress", addListAfterKeypress);
+    
